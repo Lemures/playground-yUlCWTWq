@@ -7,4 +7,5 @@ pub fn test_universe() {
     let expected = 6;
     let actual = count_all_stars(&[1, 2, 3]);
     assert_eq!(expected, actual);
+    println!("{}", actual);
 }
