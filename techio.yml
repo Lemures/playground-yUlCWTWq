@@ -1,11 +1,16 @@
 title: Rust Project
 plan:
 - title: Welcome
-plan:
+  plan:
   - title: Test
     statement: markdowns/welcome.md
+
+
+- title: Blog
+  plan:
   - title: First Entry
-    statement: markdowns/first_entry.md
+   statement: markdowns/first_entry.md
+   
 projects:
   rust:
     buildCommand: cargo build
